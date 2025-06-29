@@ -74,6 +74,7 @@ ProX/                                  // Dossier racine de l'application "ProX"
 ├── index.php                          // Point d'entrée unique de l'application. Toutes les requêtes sont routées via ce fichier.
 ├── login.php                          // Fichier traitant la logique et l'affichage de la connexion des utilisateurs.
 ├── logout.php                         // Fichier traitant la déconnexion des utilisateurs.
+├── register.php                       // Enregistrer les utilisateurs
 └── readme.md                          // Fichier Markdown contenant la description du projet, les instructions d'installation et d'utilisation.
 # 4. Installation
 Pour installer et faire fonctionner ProX sur votre machine locale, suivez les étapes ci-dessous :
@@ -144,4 +145,27 @@ Ouvrir une Pull Request.
 
 # 8. Licence
 Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
+
+ProX/
+├── assets/
+│   ├── css/
+│   ├── js/
+│   └── images/
+├── controllers/
+│   ├── DemandesEmplois/
+│   └── OffresEmplois/
+├── includes/
+│   ├── DemandesEmplois/
+│   ├── OffresEmplois/
+│   └── config/
+├── models/
+│   ├── DemandesEmplois/
+│   └── OffresEmplois/
+├── sql/
+├── views/
+│   ├── DemandesEmplois/
+│   ├── OffresEmplois/
+│   ├── auth/
+│   └── partials/
+└── fichiers racine
 
